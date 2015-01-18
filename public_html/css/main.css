@@ -1,0 +1,59 @@
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+div.background
+{
+    width: 70%; 
+    height: auto; 
+    border: 2px solid rgb(216, 201, 201);
+    background: rgba(255, 255, 255, 1); 
+    margin-left: 15%;
+    padding: 15px;
+    opacity: px;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    text-transform: none;
+}
+body {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    color: black;
+}
+
+
+div#result {
+    color: black;
+    /* height: auto; */     border: 2px solid rgb(216, 201, 201);     background: rgba(255, 255, 255, 1);      
+    /* margin-bottom: 0; */     padding: 15px;     opacity: px;     /* z-index: 9999999; */     opacity: 0.7;     filter: alpha(opacity=60); /* For IE8 and earlier */     text-transform: none;
+    /*    float: right;*/
+    border: 2px solid white;
+    width: 150px;
+    height: 79px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+    display: none;
+
+}
+
+div.rental-form {
+    padding: 10px;
+    margin: 11px;
+    border: 1px solid rgb(216, 201, 201);
+}
+
+.rental-form tr {
+}
+#btnContinue {
+    color: white;
+
+}
+
